@@ -1,0 +1,71 @@
+body{
+    font-family: 'Merriweather';
+    color: white;
+    background-color: #181c19;
+}
+
+.mantra{
+    font-family: 'Righteous';
+    font-weight: 400;
+    line-height: 37px;
+    color: white;
+}
+
+.navbar{
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.nav-link{
+    font-weight: 700;
+    color: white !important;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: white 2px solid;
+}
+
+.login{
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 7px 33px;
+    background-color: rgba(217, 217, 217, 0.31);;
+    color: black !important;
+    font-family: 'Merriweather';
+}
+
+.hero-header{
+    padding-top: 219px;
+    font-size: 59px;
+    width: 567px;
+    font-weight: 400px;
+    line-height: 146.52%;
+    text-transform: capitalize;
+    letter-spacing: 0.125em;
+}
+
+/* .hero-container{
+    background-color: #181c19;
+} */
+
+.container p{
+    width: 485px;
+    font-family: 'Raleway';
+    font-size: 27px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    margin-bottom: 38px;
+}
+
+.hero-container a{
+    font-family: 'Raleway';
+    margin-top: 29px;
+    padding: 20px 35px;
+    background-color: #B0602A;
+    color: black !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 37px;
+}
