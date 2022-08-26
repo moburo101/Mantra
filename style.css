@@ -13,7 +13,7 @@ body{
 
 .navbar{
     text-transform: uppercase;
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 .nav-link{
@@ -35,6 +35,16 @@ body{
     font-family: 'Merriweather';
 }
 
+.hero-section{
+    display: flex;
+    gap: 30px;
+}
+
+.hero-container{
+    margin-left: 100px;
+    width: 50%;
+}
+
 .hero-header{
     padding-top: 219px;
     font-size: 59px;
@@ -45,11 +55,7 @@ body{
     letter-spacing: 0.125em;
 }
 
-/* .hero-container{
-    background-color: #181c19;
-} */
-
-.container p{
+.hero-container p{
     width: 485px;
     font-family: 'Raleway';
     font-size: 27px;
@@ -68,4 +74,13 @@ body{
     font-size: 25px;
     font-weight: 500;
     line-height: 37px;
+}
+
+.hero-image{
+    background-image: url('image/jared.jpg');
+    display: inline-block;
+    background-size: cover;
+    width: 55%;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
