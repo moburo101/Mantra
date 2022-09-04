@@ -35,6 +35,10 @@ body{
     font-family: 'Merriweather';
 }
 
+#nav-btn{
+    color: white !important;
+}
+
 .hero-section{
     display: flex;
     gap: 30px;
